@@ -1,0 +1,41 @@
+# JAVASCRIPTGA KIRISH
+
+    - JAVASCRIPT tarixi
+        - Js ga Brenden Eich(Netscape dasturchisi) 1995 yilda 10 kun ichida yaratgan. Js birinchi bo'lib "Mocha" deb atalgan va keyin "LiveScript" deb atala boshlagan. 3-chi va ohirgi nomi "JavaScript" deb atala boshlagan . Sabab o'sha vaqtda Java dasturlash tili juda mashhur bo'lgan va bu JavaScriptni tez tanilishiga sabab bo'lgan .
+        JAVASCRIPT ning versiyalarida bugunga qadar asosiy 6 ta yangilanish bo'lgan:
+            - ES1 , ES2  va ES3 lar 1997-1999 yillarda bo'lgan va bular original JAVASCRIPT versiyasi bo'lgan , keyinchalik esa katta o'zgarishlar kiritilgan.
+            -ES5 birinchi asosiy o'garish versiyadagi 2009 yilda bo'lgan.
+            -ES6 ikkinchi asosiy o'garish versiyadagi 2015 yilda bo'lgan.
+            va shundan keyin katta o'zgarishlar bo'lmagan , qandaydir o'zgarish kiritilishi kerak bo'lsa yillik kiritila boshlagan.
+    - JAVASCRIPT ni  ishlatish
+        -Output: alert(), console.log()
+        -Input: prompt(), confirm()
+        - Declaration --- E'lon qilish
+            var
+            let
+            const
+            -masalan:
+                let a; yoki let a = 10;
+        - Initialize --- Ishga tushirish
+        - Assign --- o'zglashtirish
+            -masalan:
+                let a;
+                let b;
+                b = a; >>> bunda b a ning qiymatini o'zlashtirdi.
+        -Arifmetik operatorlar
+            "+" --- qo'shish
+            "-" --- ayirish
+            "*" --- ko’paytirish
+            "/" --- bo’lish
+            "**" --- daraja
+            "%" --- qoldiqli bo’lish
+        -Types of naming --- name berishning 3 xil usuli bor
+            -under_score (first_name) --- so'zlar orasiga "_" qo'yiladi va bo'sh joy tashlanmaydi.
+            -PascalCase (FirstName) --- har bir so'zning 1-chi harfi bosh harf bilan yoziladi va bo'sh joy tashlanmaydi.
+            -camelCase (firstName) ---- faqat birinchi so'zning bosh harfidan boshqa barcha so'zlarning bosh harfi katta harf bilan yoziladi va bo'sh joy tashlanmaydi.
+        - MATH.PI bu pi ning qiymati 3.14 ni e'lon qilmasdan foydalanish imkonini beradi.
+        - MATH.SQRT() bu esa ildiz
+        - MATH.ABS() bu modul
+        number() bu prompt() deb input qilinganda kiritilgan qiymatni str emas son deb qabul qilish uchun ishlatiladi ya'ni
+            let a;
+            a=Number(prompt("a=")); agar a = prompt("a=") deb ketsak a ga kiritilgan qiymatni str ko'rinishida o'qib oladi.
